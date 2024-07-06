@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Association XYZ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+        .about, .members, .trainings, .events {
+            padding: 2em 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .members img, .trainings img, .events img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .trainings .training, .events .event {
+            margin: 1em 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Bienvenue à l'Association XYZ</h1>
+            <p>Unir pour une cause commune</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">À Propos</a>
+        <a href="#members">Membres</a>
+        <a href="#trainings">Formations</a>
+        <a href="#events">Événements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="about">
+        <h2>À Propos de Nous</h2>
+        <p>L'association XYZ est dédiée à ...</p>
+    </section>
+    <section id="members" class="members">
+        <h2>Nos Membres</h2>
+        <div>
+            <img src="member1.jpg" alt="Membre 1">
+            <p>Nom du Membre 1 - Rôle</p>
+        </div>
+        <div>
+            <img src="member2.jpg" alt="Membre 2">
+            <p>Nom du Membre 2 - Rôle</p>
+        </div>
+        <!-- Ajoutez plus de membres ici -->
+    </section>
+    <section id="trainings" class="trainings">
+        <h2>Nos Formations</h2>
+        <div class="training">
+            <img src="training1.jpg" alt="Formation 1">
+            <p>Nom de la Formation 1</p>
+            <p>Description courte de la formation 1.</p>
+        </div>
+        <div class="training">
+            <img src="training2.jpg" alt="Formation 2">
+            <p>Nom de la Formation 2</p>
+            <p>Description courte de la formation 2.</p>
+        </div>
+        <!-- Ajoutez plus de formations ici -->
+    </section>
+    <section id="events" class="events">
+        <h2>Événements à Venir</h2>
+        <div class="event">
+            <img src="event1.jpg" alt="Événement 1">
+            <p>Nom de l'Événement 1</p>
+            <p>Date et lieu de l'événement 1.</p>
+        </div>
+        <div class="event">
+            <img src="event2.jpg" alt="Événement 2">
+            <p>Nom de l'Événement 2</p>
+            <p>Date et lieu de l'événement 2.</p>
+        </div>
+        <!-- Ajoutez plus d'événements ici -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Association XYZ. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
